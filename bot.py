@@ -16,7 +16,7 @@ keyboard.release(Key.cmd)
 keyboard.release("1")
 waitForColor(1579, 13, (12, 12, 13))
 #Enter URL
-keyboard.type("https://www.polltab.com/QrDpBlrVCvk")
+keyboard.type("https://www.polltab.com/QrDpBlrVCvk") # Only been tested on polltab
 keyboard.tap(Key.enter)
 #Choose option
 mouse.position = (712, 673) # Adjust to where ever the option is
