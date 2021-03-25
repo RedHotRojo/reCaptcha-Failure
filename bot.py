@@ -10,7 +10,7 @@ def waitForColor(i_x, i_y, clr):
         a = PIL.ImageGrab.grab().load()[i_x, i_y]
         sleep(0.01)
 #Open Firefox
-keyboard.press(Key.cmd)
+keyboard.press(Key.cmd) # Windows Key + 1 opens the first application on your toolbar
 keyboard.press("1")
 keyboard.release(Key.cmd)
 keyboard.release("1")
