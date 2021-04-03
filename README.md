@@ -2,6 +2,6 @@
 reCaptcha failed...
 
 Requires:
-pynput
+pynput and pillow
 
- > $ pip install pynput
+ > $ pip install pynput pillow
